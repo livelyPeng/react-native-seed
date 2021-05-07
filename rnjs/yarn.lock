@@ -2788,7 +2788,7 @@ fbjs-scripts@^1.1.0:
     semver "^5.1.0"
     through2 "^2.0.0"
 
-fbjs@^0.8.4, fbjs@^0.8.9:
+fbjs@^0.8.9:
   version "0.8.17"
   resolved "https://registry.npm.taobao.org/fbjs/download/fbjs-0.8.17.tgz#c4d598ead6949112653d6588b01a5cdcd9f90fdd"
   integrity sha1-xNWY6taUkRJlPWWIsBpc3Nn5D90=
@@ -5338,7 +5338,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
-prop-types@^15.5.10, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.npm.taobao.org/prop-types/download/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
@@ -5388,14 +5388,6 @@ range-parser@~1.2.1:
   version "1.2.1"
   resolved "https://registry.npm.taobao.org/range-parser/download/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
   integrity sha1-PPNwI9GZ4cJNGlW4SADC8+ZGgDE=
-
-react-addons-shallow-compare@15.6.2:
-  version "15.6.2"
-  resolved "https://registry.npm.taobao.org/react-addons-shallow-compare/download/react-addons-shallow-compare-15.6.2.tgz#198a00b91fc37623db64a28fd17b596ba362702f"
-  integrity sha1-GYoAuR/DdiPbZKKP0XtZa6NicC8=
-  dependencies:
-    fbjs "^0.8.4"
-    object-assign "^4.1.0"
 
 react-devtools-core@^3.6.3:
   version "3.6.3"
@@ -5475,14 +5467,6 @@ react-native-screens@^2.0.0-beta.10:
   integrity sha1-Ept7eIfNaDdBMUQrxblhPQ24R80=
   dependencies:
     debounce "^1.2.0"
-
-react-native-snap-carousel@^3.8.4:
-  version "3.8.4"
-  resolved "https://registry.npm.taobao.org/react-native-snap-carousel/download/react-native-snap-carousel-3.8.4.tgz#4c749c6a714d46ed82de527233850cb5da41bc62"
-  integrity sha1-THScanFNRu2C3lJyM4UMtdpBvGI=
-  dependencies:
-    prop-types "^15.6.1"
-    react-addons-shallow-compare "15.6.2"
 
 react-native-swiper@^1.6.0-nightly.5:
   version "1.6.0-nightly.5"
@@ -6628,9 +6612,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 ua-parser-js@^0.7.18:
-  version "0.7.21"
-  resolved "https://registry.npm.taobao.org/ua-parser-js/download/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"
-  integrity sha1-hTz5zpP2QvZxdCc8w0Vlrm8wh3c=
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 uglify-es@^3.1.9:
   version "3.3.9"
